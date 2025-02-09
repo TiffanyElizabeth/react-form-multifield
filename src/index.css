@@ -35,6 +35,7 @@ h2 {
 ul {
     margin: 0;
     list-style-type: square;
+    padding-bottom: 30px;
 }
 
 ul li {
@@ -51,19 +52,38 @@ ul li {
 }
 
 .new-post {
-    display: flex;
-    align-items: center;
+    max-width: 500px;
+    background-color: antiquewhite;
+    border: 6px solid lightgray;
+    padding-left: 24px;
+    padding-bottom: 20px;
 }
 
 .new-post p {
-    padding: 0 6px 0 20px;
-    font-weight: 200;
+    font-weight: 400;
     size: 16px;
+    padding-bottom: 0px;
 }
 
-input {
+.blog-basic-info {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+input,
+select {
     border: .5 solid grey;
     margin-right: 6px;
+    margin-bottom: 6px;
+    font-family: "poppins", serif;
+    font-size: 14px;
+    color: grey;
+}
+
+textarea {
+    margin-top: 2px;
+    margin-bottom: 6px;
 }
 
 .btn-2 {
