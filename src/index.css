@@ -27,7 +27,7 @@ body {
 
 h2 {
     margin: 0;
-    padding-top: 20px;
+    padding-top: 50px;
     font-weight: 300;
     padding-bottom: 20px;
 }
@@ -40,7 +40,7 @@ ul {
 
 ul li {
     text-transform: lowercase;
-    padding: 4px;
+    padding: 4px 4px 20px 4px;
     font-weight: 200;
     size: 18px;
 }
@@ -86,6 +86,14 @@ textarea {
     margin-bottom: 6px;
 }
 
+.publish {
+    font-family: "poppins", serif;
+    font-size: 14px;
+    color: grey;
+    display: flex;
+
+}
+
 .btn-2 {
     background-color: white;
     border: .5px solid grey;
@@ -96,4 +104,8 @@ textarea {
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 10%;
+}
+
+.delete-all {
+    margin-bottom: 50px;
 }
