@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins", serif;
+    background-color: #f4efe8;
+}
+
+.blog-title {
+    background-color: antiquewhite;
+    border: 6px solid lightgray;
+    text-align: center;
+    margin: 0px;
+}
+
+.blog-title p {
+    margin: 4px;
+}
+
+.title {
+    font-weight: 100;
+    text-transform: lowercase;
+    font-size: 90px;
+    color: slategray;
+}
+
+.blog-index {
+    background-color: #f4efe8;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: square;
+}
+
+ul li {
+    text-transform: lowercase;
+    padding: 4px;
+    font-weight: 200;
+    size: 18px;
+}
+
+.btn-1 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.new-post {
+    display: flex;
+    align-items: center;
+}
+
+.new-post p {
+    padding: 0 6px 0 20px;
+    font-weight: 200;
+    size: 16px;
+}
+
+input {
+    border: .5 solid grey;
+    margin-right: 6px;
+}
+
+.btn-2 {
+    background-color: white;
+    border: .5px solid grey;
+    font-size: 12px;
+    font-weight: 200;
+    color: grey;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10%;
+}
