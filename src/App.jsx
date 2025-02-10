@@ -131,8 +131,7 @@ export default function App() {
                 onChange={(e) => handleFormField("published", e.target.checked)}
               />
             </div>
-            <br />
-            <button className="btn-2" type="submit">add post</button>
+            <button className="btn-2 submit" type="submit">add post</button>
           </form>
         </div>
       </div>

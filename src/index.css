@@ -94,6 +94,10 @@ textarea {
 
 }
 
+.publish p {
+    margin: 0px;
+}
+
 .btn-2 {
     background-color: white;
     border: .5px solid grey;
@@ -104,6 +108,10 @@ textarea {
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 10%;
+}
+
+.submit {
+    margin-top: 8px;
 }
 
 .delete-all {
